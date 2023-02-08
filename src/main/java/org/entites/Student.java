@@ -1,23 +1,23 @@
-package org.example;
+package org.entites;
 
 public class Student {
-    private String id;
+    private int id;
     private String name;
     private String city;
 
     public Student() {
     }
-    public Student(String id, String name, String city) {
+    public Student(int id, String name, String city) {
         this.id = id;
         this.name = name;
         this.city = city;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
