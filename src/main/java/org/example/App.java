@@ -22,14 +22,19 @@ public class App
 //        int result= jdbcTemplate.update(query,112,"Manish1 ","Indore");
 //        System.out.println("Rows affected...."+result);
 
-        // 2-nd way to insert into table
+        // update into table
+//        StudentDao studentDao=context.getBean("studentDao",StudentDao.class);
+//        Student student=new Student();
+//        student.setId(112);
+//        student.setName("Golu");
+//        student.setCity("pamgaon");
+//        int result= studentDao.change(student);
+//        System.out.println("inserted rows....."+result);
+
+        // delete from table
         StudentDao studentDao=context.getBean("studentDao",StudentDao.class);
-        Student student=new Student();
-        student.setId(112);
-        student.setName("Golu");
-        student.setCity("pamgaon");
-        int result= studentDao.change(student);
-        System.out.println("inserted rows....."+result);
+        int result=studentDao.delete(121);
+        System.out.println("Deleted rows ......"+result);
 
     }
 }
