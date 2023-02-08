@@ -25,10 +25,10 @@ public class App
         // 2-nd way to insert into table
         StudentDao studentDao=context.getBean("studentDao",StudentDao.class);
         Student student=new Student();
-        student.setId(131);
-        student.setName("Monika");
-        student.setCity("Nas");
-        int result= studentDao.insert(student);
+        student.setId(112);
+        student.setName("Golu");
+        student.setCity("pamgaon");
+        int result= studentDao.change(student);
         System.out.println("inserted rows....."+result);
 
     }
