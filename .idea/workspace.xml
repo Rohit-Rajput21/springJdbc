@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3349c1c5-2af1-4ebf-908f-ec500deb31ad" name="Changes" comment="commit:select Multiple objects">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ConfigJAVA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.xml" beforeDir="false" />
+    <list default="true" id="3349c1c5-2af1-4ebf-908f-ec500deb31ad" name="Changes" comment="commit:Configuration using Annotation">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/StudentDao/StudentDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/StudentDao/StudentDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ConfigJAVA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ConfigJAVA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676139887748</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit:Configuration using Annotation">
+      <created>1676145220978</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676145220978</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -154,6 +159,7 @@
     <MESSAGE value="commit:select query using RowMapper 1_way" />
     <MESSAGE value="commit:select query using RowMapper 2_way" />
     <MESSAGE value="commit:select Multiple objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit:select Multiple objects" />
+    <MESSAGE value="commit:Configuration using Annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit:Configuration using Annotation" />
   </component>
 </project>
