@@ -6,6 +6,8 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jdbc.core.JdbcTemplate;
 
+import java.util.List;
+
 /**
  * Hello world!
  *
@@ -36,8 +38,15 @@ public class App
 //        int result=studentDao.delete(121);
 //        System.out.println("Deleted rows ......"+result);
 
-        StudentDao studentDao=context.getBean("studentDao",StudentDao.class);
-        Student student=studentDao.getStudent(113);
-        System.out.println(student);
+   //     StudentDao studentDao=context.getBean("studentDao",StudentDao.class);
+    //    Student student=studentDao.getStudent(113);
+    //    System.out.println(student);
+
+        StudentDao studentDao=context.getBean("studentDao", StudentDao.class);
+        List<Student> students=studentDao.getAllStudentS();
+        for (Student s:students) {
+            System.out.println(s);
+
+        }
     }
 }
