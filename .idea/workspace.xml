@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3349c1c5-2af1-4ebf-908f-ec500deb31ad" name="Changes" comment="commit: SpringJDBC delete query">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/StudentDao/RowMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/StudentDao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/StudentDao/StudentDao.java" afterDir="false" />
+    <list default="true" id="3349c1c5-2af1-4ebf-908f-ec500deb31ad" name="Changes" comment="commit:select query using RowMapper 1_way">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/StudentDao/RowMapperImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/StudentDao/StudentDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/StudentDao/StudentDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675834011947</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit:select query using RowMapper 1_way">
+      <created>1676135524563</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676135524563</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -131,6 +135,7 @@
     <MESSAGE value="Initial commit: SpringJDBC insert query(2nd_Way)" />
     <MESSAGE value="commit: SpringJDBC update query" />
     <MESSAGE value="commit: SpringJDBC delete query" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit: SpringJDBC delete query" />
+    <MESSAGE value="commit:select query using RowMapper 1_way" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit:select query using RowMapper 1_way" />
   </component>
 </project>
