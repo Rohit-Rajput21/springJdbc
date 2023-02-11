@@ -32,9 +32,12 @@ public class App
 //        System.out.println("inserted rows....."+result);
 
         // delete from table
-        StudentDao studentDao=context.getBean("studentDao",StudentDao.class);
-        int result=studentDao.delete(121);
-        System.out.println("Deleted rows ......"+result);
+//        StudentDao studentDao=context.getBean("studentDao",StudentDao.class);
+//        int result=studentDao.delete(121);
+//        System.out.println("Deleted rows ......"+result);
 
+        StudentDao studentDao=context.getBean("studentDao",StudentDao.class);
+        Student student=studentDao.getStudent(113);
+        System.out.println(student);
     }
 }
